@@ -1,0 +1,125 @@
+config: !!SurvivalConfig # DO NOT DELETE THIS LINE!
+  # Enable dying item names in an anvil with dyes.
+  enable-anvil-dye: true
+
+  # Enable adding potion effects to items in an anvil.
+  enable-anvil-potions: true
+
+  # Enables the artifact system.
+  enable-artifacts: true
+
+  # Enables blood particles.
+  enable-blood: true
+
+  # Enables blood drops.
+  enable-blood-drops: true
+
+  # Enables realistic chat system. Chat will have a falloff range (defaults to 70 block radius), use realistic usernames
+  # and use the range modifiers.
+  #
+  # Range modifiers are *whispers*, which when included decreases the heard range, and *shouts* which does the opposite.
+  enable-chat: false
+
+  # Enables crawling by pressing shift twice.
+  enable-crawling: true
+
+  # Enables crop tweaks, which makes them grow 3 times as slow but yield 3 times the drops.
+  enable-crops: true
+
+  # Enables spawning NPCs on player death which contain the player's items.
+  enable-death-npcs: false
+
+  # Enables hiding death messages.
+  enable-death-message-hide: false
+
+  # Enables mob detection tweaks.
+  enable-detection: true
+
+  # Enables enhanced mob behaviors:
+  #   - Creepers: leap at their target to get closer to them.
+  #   - Strays: have a chance to super slow a player and they can also have a chance to trap a player in ice.
+  #   - Zombies and Spiders: gain speed to make them faster when a player is spotted.
+  #   - Husks: have a chance to bury players in the ground when the player is hit.
+  #   - Spiders: can poison and web players when a player is hit.
+  #   - Slimes: poison players on hit and make a player drop slime particles when they are poisoned.
+  #   - Magma Cubes: set players on fire.
+  #   - Endermen: teleport players randomly a block away when the player is hit disorienting the player.
+  enable-enhanced-monsters: true
+
+  # Enables placing any item in the head slot.
+  enable-hats: true
+
+  # Enables custom fall damage.
+  enable-fall: true
+
+  # Enables custom fire entity effects.
+  enable-fire: true
+
+  # Enables doubled damage for headshots.
+  enable-headshots: true
+
+  # Enables hiding the join message.
+  enable-join-hide: false
+
+  # Enables special leaf drops.
+  enable-leaf-drops: true
+
+  # Enables hiding the leave message.
+  enable-leave-hide: false
+
+  # Enables spawning NPCs when players leave which contain the player's items and can be killed to kill the player
+  # on login.
+  enable-leave-npcs: false
+
+  # Enables the limbo system for death, which teleports players to a parkour course for them to complete when they die
+  # based on the number of kills that they have.
+  enable-limbo: true
+
+  # Enables multistage block breaking.
+  enable-multistage: true
+
+  # Enables hiding player nametags.
+  enable-nametag-hide: true
+
+  # Enables desire paths, which are created on areas where players frequently walk.
+  enable-paths: true
+
+  # Enables picking parts off of mobs instead of them dropping everything when they die.
+  enable-realistic-drops: true
+
+  # Enables a randomly-generating username system, with first and last names.
+  enable-realistic-usernames: false
+
+  # Enables the thirst system.
+  enable-thirst: true
+
+  # Enables scaling days and nights by 3x.
+  enable-time-scale: true
+
+  # Sets the max distance mobs can view you from.
+  monster-view-distance: 64
+
+  # Sets the multistage block patterns.
+  # Example: 'GRASS_BLOCK:DIRT' will cause grass blocks to break into dirt when broken.
+  multistage:
+    - 'GRASS_BLOCK:DIRT'
+    - 'STONE:COBBLESTONE'
+    - 'POLISHED_ANDESITE:ANDESITE'
+    - 'POLISHED_DIORITE:DIORITE'
+    - 'POLISHED_GRANITE:GRANITE'
+    - 'SANDSTONE:SAND'
+
+  # The amount that the number of kills is divided by for limbo difficulty.
+  parkour-divider: 10
+
+  # The space around spawn that plugin features should be disabled in.
+  spawn-radius: 100
+
+  # Whether the list of worlds is a blacklist or whitelist. If this is false, worlds is a list of worlds where this
+  # plugin is enabled and it is disabled everywhere else. If this is true, worlds is a list of worlds where this plugin
+  # is disabled and it is enabled everywhere else.
+  world-blacklist: false
+
+  # The list of worlds that this plugin is enabled or disabled in.
+  worlds:
+    - world
